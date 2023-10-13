@@ -1,0 +1,44 @@
+.logincontainer{
+    margin-top: 5rem;
+    width: 50%;
+}
+.logincontainer h1{
+    font-size: 2.9rem;
+}
+.logincontainer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 3rem 10px;
+    margin: auto;
+}
+.logincontainer input{
+    height: 3rem;
+    padding: 10px ;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.logincontainer textarea{
+   
+    padding: 10px ;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+button{
+    width:25%;
+    margin-left: 40%;
+    font-size: 1.3rem;
+    background-color: rgb(253, 252, 249);
+    border-style: dashed;
+    border-radius: 6px;
+    padding: 10px 12px;  
+}
+button:hover{
+    background-color: black;
+    color: rgb(253, 253, 253);
+    transition: all 0.1s ease-in-out;
+}

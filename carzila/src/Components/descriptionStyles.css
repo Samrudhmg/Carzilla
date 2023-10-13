@@ -1,0 +1,105 @@
+.heaven{
+    margin: 4rem 6rem;
+    
+
+}
+.heaven h1{
+    font-size: 3rem;
+}
+.para1{
+    margin: 6x;
+    font-weight: 400;
+    padding: 5px 20px ;
+    
+}
+.facts{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem ;
+}
+.factsrev{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10rem ;
+    
+
+}
+
+.facts-data{
+    width: 50%;
+   
+    
+    
+}
+.facts-data h2{
+    font-size: 3rem;
+}
+.para2{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1.2rem 0px ;
+    letter-spacing: 0.6px;
+    
+
+}
+.bugimages{
+    position:relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-left: 5.5rem;
+}
+
+
+.bugimagesrev{
+    position:relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin-right: 5.5rem;
+
+}
+.bugimagesrev img{
+    width: 47%;
+    height: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0px 2px 35px -13px;
+    transition: all 0.2s ease-in-out;
+    
+    
+}
+
+
+.bugimages img{
+    width: 47%;
+    height: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0px 2px 35px -13px;
+    transition: all 0.2s ease-in-out;
+
+}
+.bugimages img:hover{
+    transform: scale(1.1);  
+}
+.bugimagesrev img:hover{
+    transform:scale(1.1);
+}
+
+.bugimages img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+.bugimagesrev img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+    
+}
+

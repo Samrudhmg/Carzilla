@@ -1,0 +1,74 @@
+.footer {
+    margin-top: 10rem;
+    background-color: black;
+    height: 30rem;
+    padding: 2rem 4rem;
+    color: aliceblue;
+
+}
+
+.footertop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.footertop h1 {
+    font-size: 2.5rem;
+}
+
+.footertop p {
+    padding: 6px 10px;
+}
+
+
+.footertop i {
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 0px 15px;
+}
+
+.footertop i:hover {
+    color: rgb(68, 228, 31);
+}
+
+.footerdown {
+    margin: 2.4rem 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 3rem;
+}
+
+.footerdown div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footerdown h3 {
+    font-size: 1.8rem;
+    padding: 10px 2px;
+    border-bottom-style:dashed;
+    width: fit-content;
+}
+
+.footerdown a {
+    padding: 8px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.footerdown a:hover {
+    background-color: aliceblue;
+    white-space: nowrap;
+    padding: 10px 2px;
+    border-radius: 10px;
+    color: rgb(44, 124, 9);
+    transition: all 0.2s ease-in-out;
+    
+}

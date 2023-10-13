@@ -1,0 +1,54 @@
+.newjdmfile{
+    margin: 5rem 6rem;
+}
+.newjdmfile h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.newjdmfile p{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.jdmimages{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.jdmcontainer{
+    width: 33%;
+    text-align: start;
+    box-shadow: 0px 12px 25px -12px rgba(0, 0, 0, 0.60);
+    padding: 1rem 0.8rem;
+    overflow: hidden;
+}
+.jdmphotos{
+    height: 50%;
+    padding: 10px ;
+   
+}
+.jdmphotos img{
+   
+    width: 100%;
+    height: 100%;
+    transition:  0.2s ease-in-out;
+    border-radius: 7px;
+    
+    
+}
+.jdmphotos:hover img{
+    transform: scale(1.05);
+}
+.jdmphotos h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.jdmphotos  p{
+    letter-spacing: 0.6px;
+    font-size: 1.1rem;
+    font-weight:500;
+    text-align:justify;
+
+}

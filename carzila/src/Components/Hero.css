@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;600&family=Work+Sans&display=swap');
+.hero{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.hero-second{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+.hero-second h1{
+    font-family: 'Bebas Neue', sans-serif;;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem !important;
+    font-weight:800;
+    letter-spacing: 10px;
+    padding-top: 8rem;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.herotext{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+   
+}
+
+
+.herotext h1{
+    font-family: 'Bebas Neue', sans-serif;;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight:800;
+    letter-spacing: 10px;
+    
+}
+
+.herotext p{
+    font-family: 'Bebas Neue', sans-serif;;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight:800;
+    letter-spacing: 6px;
+    padding: 40px 0 50px 0;
+}
+
+.herotext .btnclass{
+    text-decoration: none;
+    background: rgb(243, 243, 243);
+    color: black;
+    padding: 0.8rem 0.7rem; 
+    font-weight: 900;
+    font-size: large;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+
+    
+
+}

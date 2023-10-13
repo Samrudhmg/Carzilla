@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@300;400;500;600&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Work Sans', sans-serif;
+    
+}
+.App{
+    text-align: center;
+}
+.navbaritems{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 0px 30px;
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.30);
+      width: 95%;
+      height: 70px;
+      border-radius: 13px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      top:20px;
+      left:50%;
+      transform: translate(-50%);
+      z-index: 9999;
+      
+      
+
+
+}
+
+.logocar{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+   
+}
+.navmenu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 18px;
+    list-style-type: none;
+    
+    
+    
+    
+}
+.navhome{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    white-space:nowrap;
+    align-items: center;
+    
+
+}
+.navhome:hover{
+    background-color:black ;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition:all 0.2s ease-in-out;
+    
+}
+.navhome i{
+    padding-right: 5px;
+}
+.signup{
+    display: none;
+}
+
